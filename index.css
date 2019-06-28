@@ -1,0 +1,49 @@
+body{
+  /*   border: solid; */
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;     
+  }
+  header{
+    background-color: red;
+    border: solid red;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+  }
+  .hello{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    color: white; 
+  /*   border: solid; */
+    margin-bottom: -10px;
+  }
+  .name{
+    font-size: 30px;
+    color: white;
+  /*   border: solid;    */
+  }
+  .printedname{
+    font-size: 72px;
+    font-family: cursive;
+  /*   border: solid green; */
+  /*   padding-bottom: px; */
+    margin-bottom: -24px;
+    display: flex;
+    justify-content: center;
+  }
+  .dottedline{
+  /*   margin-top: -15px; */
+    border-bottom: dotted black;
+    
+  }
+  .redfooter{
+    border: solid red;
+    height: 43px;
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+    
+  
+  }
