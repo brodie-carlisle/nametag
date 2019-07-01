@@ -1,49 +1,41 @@
-body{
+body {
   /*   border: solid; */
-    width: 400px;
     height: 250px;
-    border-radius: 20px;     
+    width: 400px;
+    margin: auto
   }
   header{
     background-color: red;
-    border: solid red;
-    border-radius: 20px 20px 0 0;
-    text-align: center;
-    font-family: sans-serif;
-    padding-bottom: 10px;
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    font-family: sans-serif; 
+      
+  /*   margin: auto; */
   }
   .hello{
     font-size: 60px;
+    color: white; 
+    text-align: center;
     font-weight: bold;
     letter-spacing: 8px;
-    color: white; 
-  /*   border: solid; */
-    margin-bottom: -10px;
   }
   .name{
     font-size: 30px;
     color: white;
-  /*   border: solid;    */
+    text-align: center;
   }
-  .printedname{
-    font-size: 72px;
+  p{
+    font-size: 80px;
     font-family: cursive;
-  /*   border: solid green; */
-  /*   padding-bottom: px; */
-    margin-bottom: -24px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    border-bottom: dotted;
+    margin: auto;
+    height: 100px;
+   
   }
-  .dottedline{
-  /*   margin-top: -15px; */
-    border-bottom: dotted black;
-    
-  }
-  .redfooter{
-    border: solid red;
-    height: 43px;
+  footer{
     background-color: red;
-    border-radius: 0px 0px 20px 20px;
-    
-  
+    height: 42px;
+    border-bottom-right-radius: 20px; 
+    border-bottom-left-radius: 20px
   }
